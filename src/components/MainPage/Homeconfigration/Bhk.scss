@@ -1,0 +1,89 @@
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    height: 100vh;
+    width: 70%;
+}
+
+
+
+.glow-on-hover button {
+    border: none;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+
+
+}
+
+.submit {
+    background-color: red;
+    padding: 15px 60px;
+    border-radius: 11px;
+    border: none;
+}
+
+
+.form {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5vh;
+
+    p {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5vh;
+    }
+}
+
+.form_data {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.add_switch {
+    padding: 5px 10px;
+    margin-top: 10px;
+    
+}
+
+.balcony_data {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    button {
+        padding: 5px 22px;
+        margin-right: 12px;
+    }
+}
+
+.bathroom_data {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    button {
+        padding: 5px 22px;
+        margin-right: 12px;
+    }
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+    margin-top: 6px;
+}
+
+select {
+    width: 50%;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+}

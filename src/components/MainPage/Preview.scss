@@ -1,0 +1,41 @@
+.final_submit{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+   
+    // background: linear-gradient(to right, #ab1dcf, #f80759);
+    // box-shadow: rgb(0 0 0 / 30%) 0px 19px 38px, rgb(0 0 0 / 22%) 0px 15px 12px;
+    button{
+        border: none;
+        background: linear-gradient(to right, #ab1dcf, #f80759);
+        color: white;
+        font-weight: bold;
+        font-size: 22px;
+        padding: 15px 13vw;
+        border-radius: 5px;
+        cursor: pointer;
+       
+    }
+}
+
+.add_moreData{
+    display: flex;
+    justify-content: right;
+    margin: 20px 50px;
+    button{
+        border: none;
+        background: linear-gradient(to right, #ab1dcf, #f80759);
+        color: white;
+        font-weight: bold;
+        font-size: 22px;
+        padding: 15px 5vw;
+        border-radius: 5px;
+        cursor: pointer;
+       
+    }
+}
+.cart_Empty{
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 10vw;
+}

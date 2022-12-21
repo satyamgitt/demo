@@ -1,0 +1,30 @@
+.user_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    .user_app-wrapper{
+        border: 3px solid burlywood;
+        border-radius: 5px;
+    }
+
+    .user_submit{
+        padding: 15px 60px;
+        border-radius: 11px;
+        border: none;
+        background: linear-gradient(to right, #ab1dcf, #f80759);
+        box-shadow: rgb(0 0 0 / 30%) 0px 19px 38px, rgb(0 0 0 / 22%) 0px 15px 12px;
+        margin-bottom: 20px; 
+        cursor: pointer;
+        button {
+            border: none;
+            background: linear-gradient(to right, #ab1dcf, #f80759);
+            color: white;
+           
+            font-weight: bold;
+            font-size: 22px;
+            border-radius: 8px;
+            
+        }
+    }
+}
