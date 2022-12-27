@@ -131,7 +131,7 @@ const Preview = () => {
             var data = []
             data.push(values)
             // console.log("REQDETAILS", JSON.stringify(data));
-            axios.post(`http://3.128.231.248/i-switch/automation/user_requirements.php`, data)
+            axios.post(`https://3.128.231.248/i-switch/automation/user_requirements.php`, data)
                 .then(res => {
                     console.log("on submit user response equilng with server", res.data);
                     if (res.data === "1") {
@@ -157,7 +157,7 @@ const Preview = () => {
         payload['email'] = emailstore
         const junk = [];
         junk.push(payload);
-        axios.post(`http://3.128.231.248/i-switch/automation/delete_details.php`, junk)
+        axios.post(`https://3.128.231.248/i-switch/automation/delete_details.php`, junk)
             .then((res) => {
                 fetchData()
             })
