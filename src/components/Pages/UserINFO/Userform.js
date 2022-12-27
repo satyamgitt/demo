@@ -33,7 +33,7 @@ const Details = () => {
             [event.target.name]: event.target.value,
         });
     }
-
+   
 
 
     const handleSubmit = (e) => {

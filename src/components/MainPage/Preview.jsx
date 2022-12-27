@@ -100,10 +100,11 @@ const Preview = () => {
     }
 
 
+    // data fettiching on preview page
     const fetchData = () => {
         var payload = [{ "email": emailstore }]
         console.log("payload sending as user email for update in list", payload);
-        axios.post('http://3.128.231.248/i-switch/automation/show_details.php', payload)
+        axios.post('https://3.128.231.248/i-switch/automation/show_details.php', payload)
             .then((response) => {
                 setData(response.data)
                 console.log("API-RESPONSE  LIST FOR USER EMAIL", response.data);
