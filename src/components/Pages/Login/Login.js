@@ -32,7 +32,7 @@ const Login = () => {
         payload.push(data)
         console.log("Email and password", payload);
 
-        axios.post('http://3.128.231.248/i-switch/automation/Customer_Login.php', payload)
+        axios.post('https://3.128.231.248/i-switch/automation/Customer_Login.php', payload)
             .then((response) => {
                 if (response.data.hasOwnProperty('errors')) {
                     alert(response.data.message)
