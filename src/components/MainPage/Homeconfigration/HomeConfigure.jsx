@@ -151,7 +151,7 @@ const HomeConfigure = () => {
       var data = []
       data.push(values)
       // console.log("REQDETAILS", JSON.stringify(data));
-      axios.post(`http://3.128.231.248/i-switch/automation/user_requirements.php`, data)
+      axios.post(`https://3.128.231.248/i-switch/automation/user_requirements.php`, data)
         .then(res => {
           console.log("on submit user response equilng with server", res.data);
           if (res.data === "1") {

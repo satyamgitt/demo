@@ -42,7 +42,7 @@ const Details = () => {
         const send = [];
         send.push(data);
         console.log("Userdetailspayload", send);
-        axios.post('http://3.128.231.248/i-switch/automation/customer_details.php', send)
+        axios.post('https://3.128.231.248/i-switch/automation/customer_details.php', send)
             .then((response) => {
                 // console.log(response);
                 if (response.data.hasOwnProperty('errors')) {

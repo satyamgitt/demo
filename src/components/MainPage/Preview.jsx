@@ -196,7 +196,7 @@ const Preview = () => {
     const submitdata = () => {
         var x = [{ "email": emailstore }]
         // console.log("array of user email after submitting", x);
-        axios.post(`http://3.128.231.248/i-switch/automation/send_ack.php`, x)
+        axios.post(`https://3.128.231.248/i-switch/automation/send_ack.php`, x)
             .then(res => {
                 if (res.data != "0") {
                     // console.log(mail);

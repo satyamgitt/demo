@@ -37,7 +37,7 @@ const Register = () => {
         const send = [];
         send.push(data);
         // console.log("payload", send);
-        axios.post('http://3.128.231.248/i-switch/automation/Customer_Registration.php', send)
+        axios.post('https://3.128.231.248/i-switch/automation/Customer_Registration.php', send)
             .then((response) => {
                 if (response.data.hasOwnProperty('errors')) {
                     alert(response.data.message)
